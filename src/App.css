@@ -1,0 +1,115 @@
+/* Global Styles */
+.App {
+  font-family: 'Poppins', sans-serif;
+  background: #1e2a34; /* Darker background color */
+  min-height: 100vh;
+  padding: 0;
+  color: #ecf0f1; /* Light text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Design */
+.card {
+  background-color: #212e3f; /* Even darker background */
+  border-radius: 15px; /* Rounded corners */
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Soft shadow for depth */
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Header Styling */
+.card h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Input fields */
+.input-field {
+  background-color: #1e2a34; /* Dark input background */
+  color: #ecf0f1; /* Light text */
+  border: 2px solid #7f8c8d; /* Soft border */
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.input-field:focus {
+  border-color: #3498db; /* Light blue on focus */
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.6);
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 8px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #3498db; /* Light blue */
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9; /* Darker blue */
+  transform: translateY(-3px); /* Slight lift effect */
+}
+
+.btn-secondary {
+  background-color: #7f8c8d; /* Grey */
+  border: none;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #95a5a6; /* Lighter grey */
+  transform: translateY(-3px); /* Slight lift effect */
+}
+
+/* Result Text */
+.result h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.result p {
+  font-size: 1.2rem;
+  color: #f39c12; /* Amber color for the category */
+}
+
+/* Gauge Bar */
+.gauge-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.gauge-bar {
+  height: 20px;
+  background-color: #7f8c8d;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.gauge-progress {
+  height: 100%;
+  background-color: #3498db;
+  border-radius: 10px;
+  transition: width 0.3s ease;
+}
+
+.gauge-label {
+  margin-top: 10px;
+  color: #ecf0f1;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center
+}
+
